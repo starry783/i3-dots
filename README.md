@@ -1,2 +1,2 @@
 # i3-dots
-my simple i3wm dot files
+My i3wm dotfiles i use on openSUSE Tumbleweed.
