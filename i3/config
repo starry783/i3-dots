@@ -205,7 +205,7 @@ exec_always --no-startup-id xrandr --output eDP-1 --mode 1366x768 --rate 60
 exec_always --no-startup-id setxkbmap gb
 
 # WALLPAPER
-exec --no-startup-id feh --bg-fill /home/skye/Pictures/wallpapers/Cirques.jpg
+exec --no-startup-id feh --bg-fill /home/skye/Pictures/wallpapers/Tetons.jpg
 
 # NOTIFICATIONS
 exec --no-startup-id dunst &
