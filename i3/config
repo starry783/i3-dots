@@ -187,7 +187,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status --config ~/.i3status.conf
-	font pango:JetBrains Mono 7
+	font pango:JetBrains Mono 8
 }
 
 # MY STUFF
@@ -195,17 +195,18 @@ bar {
 # SHORTCUTS
 bindsym $mod+e exec nemo
 bindsym $mod+b exec firefox
-bindsym $mod+y exec --no-startup-id alacritty -e sudo yast
 bindsym $mod+c exec code
-
-# DISPLAY
-exec_always --no-startup-id xrandr --output eDP-1 --mode 1366x768 --rate 60
+bindsym $mod+y exec alacritty -e sudo yast
 
 # KEYBOARD
 exec_always --no-startup-id setxkbmap gb
 
+# DISPLAY
+exec_always --no-startup-id xrandr --output DP-3 --mode 2560x1440 --rate 165
+#exec_always --no-startup-id xrandr --output DP-3 --mode 1366x768 --rate 60
+
 # WALLPAPER
-exec --no-startup-id feh --bg-fill /home/skye/Pictures/wallpapers/Tetons.jpg
+exec feh --bg-fill /home/skye/Pictures/wallpapers/derpy.png
 
 # NOTIFICATIONS
 exec --no-startup-id dunst &
