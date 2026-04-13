@@ -206,7 +206,7 @@ exec_always --no-startup-id xrandr --output DP-3 --mode 2560x1440 --rate 165
 #exec_always --no-startup-id xrandr --output DP-3 --mode 1366x768 --rate 60
 
 # WALLPAPER
-exec feh --bg-fill /home/skye/Pictures/wallpapers/derpy.png
+exec feh --bg-fill /home/skye/Pictures/wallpapers/Cirques.jpg
 
 # NOTIFICATIONS
 exec --no-startup-id dunst &
